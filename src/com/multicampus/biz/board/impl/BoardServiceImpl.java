@@ -11,7 +11,7 @@ import com.multicampus.biz.board.BoardVO;
 @Service("boardService")
 public class BoardServiceImpl implements BoardService {
 	@Autowired
-	private BoardDAOIbatis boardDAO;	
+	private BoardDAOHibernate boardDAO;	
 
 	public void insertBoard(BoardVO vo) {
 		boardDAO.insertBoard(vo);
