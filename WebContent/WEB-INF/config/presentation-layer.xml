@@ -37,7 +37,7 @@
 	</mvc:interceptors>
 	
 	
-	<!-- 예외 처리 설정 -->
+	<!-- 예외 처리 설정 
 	<bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
 		<property name="exceptionMappings">
 			<props>
@@ -51,6 +51,7 @@
 		</property>
 		<property name="defaultErrorView" value="/common/error.jsp"/>
 	</bean>
+	-->
 	
 </beans>
 

@@ -19,6 +19,18 @@
 	<logger name="org.springframework" additivity="false">
 		<level value="INFO" />
 		<appender-ref ref="console" />
-	</logger>   
+	</logger>  
+	 
+	<!-- 	 --> 
+	<logger name="com.ibatis" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="console" />
+	</logger> 
+	
+	<logger name="java.sql" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="console" />
+	</logger>
+
 
 </log4j:configuration>

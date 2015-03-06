@@ -24,7 +24,6 @@ public class LoginController {
 
 	@RequestMapping(value="/login.do", method=RequestMethod.POST)
 	public String login(UserVO vo) {
-		System.out.println(9/0);
 //		String name = null;
 //		System.out.println(name.length());
 		
